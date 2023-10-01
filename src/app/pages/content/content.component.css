@@ -1,0 +1,38 @@
+.game-home__container{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 70px 30px;
+    justify-content: center;
+}
+
+.game-home__image img{
+    border-radius: 5px;
+    width: 300px;
+    height: 400px;
+}
+
+.game-home__content{
+    padding: 30px;
+    text-align: center;
+    width: 60%;
+    
+}
+
+.game-home__content > h2{
+    color: rgb(211, 211, 211);
+}
+@media (max-width: 700px){
+    .game-home__container{
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 0px;
+    }
+    .game-home__image img{
+        width: 180px;
+        height: 220px;
+    }
+    .game-home__content{
+        width: 100%;
+    }
+}
